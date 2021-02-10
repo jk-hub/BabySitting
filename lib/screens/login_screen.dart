@@ -19,6 +19,8 @@ class _LoginScreenState extends State<LoginScreen> {
             const SizedBox(height: 25.0),
             TextField(
               decoration: InputDecoration(
+                enabledBorder: const UnderlineInputBorder(
+                    borderSide: BorderSide(color: AppColors.pinkColor)),
                 hintText: 'Mobile Number',
                 hintStyle: AppTextStyle.getRegularTextStyle(
                   16,
@@ -26,6 +28,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
                 suffixIcon: const Icon(
                   Icons.mobile_friendly_outlined,
+                  color: AppColors.pinkColor,
                 ),
               ),
             ),

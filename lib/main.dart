@@ -4,6 +4,7 @@ import 'package:babySitting/screens/home_screen.dart';
 import 'package:babySitting/screens/login_screen.dart';
 import 'package:babySitting/screens/signup_screen.dart';
 import 'package:babySitting/screens/splash_screen.dart';
+import 'package:babySitting/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:page_transition/page_transition.dart';
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
               debugShowCheckedModeBanner: false,
               title: 'Baby Sitting',
               theme: ThemeData(
+                primaryColor: AppColors.pinkColor,
                 textTheme: GoogleFonts.latoTextTheme(
                   Theme.of(context).textTheme,
                 ),

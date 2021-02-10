@@ -16,6 +16,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
     return TextField(
       keyboardType: textInputType,
       decoration: InputDecoration(
+        enabledBorder: const UnderlineInputBorder(
+            borderSide: BorderSide(color: AppColors.pinkColor)),
         hintText: hintText,
         hintStyle: AppTextStyle.getRegularTextStyle(
           16,
