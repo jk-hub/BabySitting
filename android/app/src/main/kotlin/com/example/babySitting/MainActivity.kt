@@ -1,4 +1,4 @@
-package com.example.babySitting
+package com.test.babySitting
 
 import io.flutter.embedding.android.FlutterActivity
 

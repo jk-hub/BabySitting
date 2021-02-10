@@ -1,0 +1,58 @@
+const List<Map<String, String>> morkData = [
+  {
+    "icon": "assets/images/oneday.png",
+    "buttonText": "Book Now",
+    "buttonTextColor": "0xFFFFFFFF",
+    "buttonBGColor": "0xFFE36DA6",
+    "title": "One Day Package",
+    "titleTextColor": "0xFF262F71",
+    "amount": "\u{20B9} 2799",
+    "amountTextColor": "0XFF262F71",
+    "cardBGColor": "0xFFF0B3CD",
+    "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis lacus vitae porta tempor. Duis orci ex, fringilla at lectus et, porta ornare quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ultrices magna consectetur condimentum iaculis. Donec pellentesque ligula ac interdum elementum. Aliquam pulvinar tellus nec fermentum mollis. Cras vulputate nisl eget nunc aliquet, non scelerisque tellus consectetur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam accumsan ut eros interdum elementum. Aliquam feugiat pellentesque pretium.",
+    "descriptionTextColor": "0xFF494949",
+  },
+  {
+    "icon": "assets/images/3-day.png",
+    "buttonText": "Book Now",
+    "buttonTextColor": "0xFFFFFFFF",
+    "buttonBGColor": "0xFF0098D0",
+    "title": "Three Days Package",
+    "titleTextColor": "0xFF262F71",
+    "amount": "\u{20B9} 7497",
+    "amountTextColor": "0xFF262F71",
+    "cardBGColor": "0xFF80ABDB",
+    "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis lacus vitae porta tempor. Duis orci ex, fringilla at lectus et, porta ornare quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ultrices magna consectetur condimentum iaculis. Donec pellentesque ligula ac interdum elementum. Aliquam pulvinar tellus nec fermentum mollis. Cras vulputate nisl eget nunc aliquet, non scelerisque tellus consectetur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam accumsan ut eros interdum elementum. Aliquam feugiat pellentesque pretium.",
+    "descriptionTextColor": "0xFF494949",
+  },
+  {
+    "icon": "assets/images/fiveday.png",
+    "buttonText": "Book Now",
+    "buttonTextColor": "0xFFFFFFFF",
+    "buttonBGColor": "0xFFE36DA6",
+    "title": "Five Days Package",
+    "titleTextColor": "0xFF262F71",
+    "amount": "\u{20B9} 11495",
+    "amountTextColor": "0xFF262F71",
+    "cardBGColor": "0xFFF0B3CD",
+    "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis lacus vitae porta tempor. Duis orci ex, fringilla at lectus et, porta ornare quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ultrices magna consectetur condimentum iaculis. Donec pellentesque ligula ac interdum elementum. Aliquam pulvinar tellus nec fermentum mollis. Cras vulputate nisl eget nunc aliquet, non scelerisque tellus consectetur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam accumsan ut eros interdum elementum. Aliquam feugiat pellentesque pretium.",
+    "descriptionTextColor": "0xFF494949",
+  },
+  {
+    "icon": "assets/images/weekend.png",
+    "buttonText": "Book Now",
+    "buttonTextColor": "0xFFFFFFFF",
+    "buttonBGColor": "0xFF0098D0",
+    "title": "Weekend Package",
+    "titleTextColor": "0xFF262F71",
+    "amount": "\u{20B9} 7497",
+    "amountTextColor": "0xFF262F71",
+    "cardBGColor": "0xFF80ABDB",
+    "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis lacus vitae porta tempor. Duis orci ex, fringilla at lectus et, porta ornare quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ultrices magna consectetur condimentum iaculis. Donec pellentesque ligula ac interdum elementum. Aliquam pulvinar tellus nec fermentum mollis. Cras vulputate nisl eget nunc aliquet, non scelerisque tellus consectetur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam accumsan ut eros interdum elementum. Aliquam feugiat pellentesque pretium.",
+    "descriptionTextColor": "0xFFFFFFFF",
+  },
+];

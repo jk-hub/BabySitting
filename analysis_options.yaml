@@ -1,0 +1,16 @@
+include: package:lint/analysis_options.yaml
+
+analyzer:
+  errors:
+    avoid_print: ignore
+    avoid_web_libraries_in_flutter: ignore
+    constant_identifier_names: error
+    non_constant_identifier_names: error
+    prefer_const_constructors: warning
+    prefer_const_declarations: warning
+    prefer_const_constructors_in_immutables: warning
+    prefer_final_locals: warning
+    prefer_typing_uninitialized_variables: warning
+    unused_import: warning
+    unused_local_variable: warning
+    unnecessary_string_interpolations: warning
